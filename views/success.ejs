@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success-Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron">
+        <div class= "text-center">
+            <img src="/images/images1.png">
+        <h1 class="display-4">Registration Success!</h1>
+        <p class="lead"><span>Dear <b><%- user.firstName %></b></span> you have successfully registered and your user ID is <b><%- user.userID %></b>.</p>
+        <hr class="my-4">
+        <p>Please copy your User ID as it will be used to fill your Survey Form.</p>
+        <a class="btn btn-primary btn-lg" href="/survey" role="button">Create a Survey</a>
+        </div>
+      </div>
+</body>
+</html>
